@@ -494,7 +494,15 @@ main{
 
 }
 
-@media (max-width: 413px) {
+@media (max-width: 450px) {
+    
+    .banner-form-container{
+        height: 120vh;
+    }
+
+    .topics-list-container{
+        height: 165vh;
+    }
 
     footer{
         height: 20vh;
