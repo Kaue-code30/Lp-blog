@@ -445,11 +445,11 @@ main{
 
 @media (max-width: 470px) {
     .banner-form-container{
-        height: 150vh;
+        height: 140vh;
     }
 
     .topics-list-container{
-        height: 200vh;
+        height: 145vh;
     }
 }
 
@@ -504,6 +504,7 @@ main{
         display: flex;
         flex-direction: column-reverse;
         gap: 10px;
+        width: 80%;
     }
     .footer-content{
         align-items: center;
