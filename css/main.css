@@ -445,11 +445,11 @@ main{
 
 @media (max-width: 470px) {
     .banner-form-container{
-        height: 160vh;
+        height: 150vh;
     }
 
     .topics-list-container{
-        height: 210vh;
+        height: 200vh;
     }
 }
 
