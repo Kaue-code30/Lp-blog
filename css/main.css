@@ -301,6 +301,11 @@ main{
 /* Estilos para telas menores, como dispositivos móveis */
 @media (max-width: 768px) {
 
+    .item-list {
+        border: none; /* Remova a borda no hover */
+        transition: none; /* Remova a transição no hover */
+    }
+
     header{
         display: flex;
     }
@@ -449,6 +454,11 @@ main{
         height: 140vh;
     }
 
+    .item-list {
+        border: none; /* Remova a borda no hover */
+        transition: none; /* Remova a transição no hover */
+    }
+
     .topics-list-container{
         height: 145vh;
     }
@@ -489,6 +499,11 @@ main{
         width: 20%;
     }
 
+    .item-list {
+        border: none; /* Remova a borda no hover */
+        transition: none; /* Remova a transição no hover */
+    }
+
     .footer-content{
         align-items: center;
     }
@@ -509,6 +524,11 @@ main{
         height: 20vh;
     }
 
+    .item-list {
+        border: none; /* Remova a borda no hover */
+        transition: none; /* Remova a transição no hover */
+    }
+
     .footer-box{
         display: flex;
         flex-direction: column-reverse;
@@ -525,6 +545,10 @@ main{
         height: 140vh;
     }
 
+    .item-list {
+        border: none; /* Remova a borda no hover */
+        transition: none; /* Remova a transição no hover */
+    }
     .topics-list-container{
         height: auto;
         padding-bottom: 50px;
