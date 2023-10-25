@@ -45,7 +45,7 @@ main{
 .form{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .form-box{
@@ -102,6 +102,7 @@ main{
     gap: 100px;
     width: 100%;
     padding-bottom: 30px;
+    margin-left: -1%;
 }
 
 .item-list {
@@ -516,5 +517,20 @@ main{
     }
     .footer-content{
         align-items: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .banner-form-container{
+        height: 140vh;
+    }
+
+    .topics-list-container{
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    footer{
+        height: 30vh;
     }
 }
