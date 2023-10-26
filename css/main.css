@@ -566,6 +566,28 @@ main{
 
 @media (max-width: 450px) {
     .banner-form-container{
+        height: 115vh;
+    }
+
+    .item-list:hover .image-item {
+        width: 20%;
+        transition: 0.3s;
+    }
+    .item-list:hover #image {
+        width: 15%;
+        transition: 0.3s;
+    }
+    .topics-list-container{
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    footer{
+        height: 30vh;
+    }
+}
+@media (max-width: 375px) {
+    .banner-form-container{
         height: 170vh;
     }
 
