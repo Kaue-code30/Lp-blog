@@ -107,6 +107,7 @@ main{
     width: 100%;
     padding-bottom: 30px;
     margin-left: -1%;
+    height: 150px;
 }
 
 .item-list {
@@ -139,9 +140,20 @@ main{
     transition: 0.3s;
 }
 
+#imageFront{
+    width: 40%;
+}
+#imageFront:hover{
+    width: 35%;
+}
+
+.item-list:hover #imageFront {
+    width: 35%;
+    transition: 0.3s;
+}
 
 .item-list:hover #image {
-    width: 27%;
+    width: 25%;
     transition: 0.3s;
 }
 
@@ -401,10 +413,15 @@ main{
         width: 15%;
     }
 
+    #imageFront{
+        width: 20%;
+    }
+
     .column{
         display: flex;
         flex-direction: column;
         gap: 25px;
+        height: 100%;
     }
 
     .cta-container{
