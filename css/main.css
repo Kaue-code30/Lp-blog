@@ -552,7 +552,7 @@ main{
 @media (max-width: 430px) {
 
     .banner-form-container{
-        height: 120vh;
+        height: 130vh;
     }
 
     .topics-list-container{
@@ -607,7 +607,7 @@ main{
 }
 @media (max-width: 375px) {
     .banner-form-container{
-        height: 170vh;
+        height: 180vh;
     }
 
     .item-list:hover .image-item {
