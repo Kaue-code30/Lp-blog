@@ -585,7 +585,7 @@ main{
 
 @media (max-width: 450px) {
     .banner-form-container{
-        height: 115vh;
+        height: 125vh;
     }
 
     .item-list:hover .image-item {
