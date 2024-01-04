@@ -8,10 +8,10 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #707070;
+    background-color: #7070704b;
     height:100vh;
     padding-top: 3%;
-    background-image: url('../images/fundo-banner-blog.png');
+    background-image: url('../images/foto.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
