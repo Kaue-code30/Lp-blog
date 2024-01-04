@@ -66,16 +66,28 @@ header{
     color: rgb(255, 255, 255);
     width: 20%;
     gap: 10px;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .social-midias-box a{
+    background-color: #000000;
     color: #FFF;
 }
 
+.social-midias-box i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    padding: 05px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    color: #000;
+}
+
 .social-midias-box i:hover{
-    border: 1px solid #000;
-    font-size: 1.85rem;
+    border: 0px solid #000;
+    font-size: 1.5rem;
 }
 
 footer{
